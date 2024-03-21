@@ -1,0 +1,16 @@
+body {
+    font-size: 30px;
+    color: blue;
+}
+
+.a {
+    display: flex;
+    transition: 1s;
+    /* will be prefixed */
+}
+
+.b {
+    /* autoprefixer: off */
+    transition: 1s;
+    /* will not be prefixed */
+}
